@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>广州月保车位｜长期停车咨询</title>
+  <meta name="description" content="广州天河、白云、番禺等区域月保车位信息展示，适合长期停放、出差停放、闲置车辆停放。" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">有派车友汇</div>
+      <a class="nav-btn" href="#contact">立即咨询</a>
+    </nav>
+    <div class="hero-content">
+      <p class="tag">广州长期停车 · 月保车位</p>
+      <h1>帮你找到安全、省心、价格合适的月保车位</h1>
+      <p class="subtitle">适合车辆长期停放、出差停放、闲置车辆停放。支持广州多区域合作停车场咨询。</p>
+      <div class="actions">
+        <a href="#parks" class="primary">查看车位</a>
+        <a href="#contact" class="secondary">提交需求</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section stats">
+      <div><strong>300+</strong><span>合作车位</span></div>
+      <div><strong>多区域</strong><span>广州停车场资源</span></div>
+      <div><strong>长期停放</strong><span>月保更划算</span></div>
+    </section>
+
+    <section class="section" id="parks">
+      <div class="section-title">
+        <p>Parking Lots</p>
+        <h2>热门月保停车场</h2>
+      </div>
+      <div class="cards" id="parkingList"></div>
+    </section>
+
+    <section class="section benefits">
+      <div class="section-title">
+        <p>Why Us</p>
+        <h2>为什么选择我们</h2>
+      </div>
+      <div class="benefit-grid">
+        <div><h3>价格透明</h3><p>提前了解月保价格、位置和适合车型。</p></div>
+        <div><h3>适合长期停放</h3><p>车辆不用每天开，一停十天半个月也方便。</p></div>
+        <div><h3>快速对接</h3><p>留下需求后，人工帮你匹配合适停车场。</p></div>
+        <div><h3>多平台引流</h3><p>适合小红书、抖音、闲鱼客户承接转化。</p></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-text">
+        <p class="tag">Submit Request</p>
+        <h2>提交你的停车需求</h2>
+        <p>填写后会自动打开微信/短信内容，你也可以把客户信息复制给自己保存。</p>
+        <div class="contact-box">
+          <p><strong>微信：</strong>请替换为你的微信号</p>
+          <p><strong>电话：</strong>请替换为你的手机号</p>
+        </div>
+      </div>
+      <form id="leadForm" class="form">
+        <input type="text" id="name" placeholder="你的称呼" required />
+        <input type="tel" id="phone" placeholder="联系电话" required />
+        <select id="area" required>
+          <option value="">选择停车区域</option>
+          <option>天河区</option>
+          <option>白云区</option>
+          <option>番禺区</option>
+          <option>海珠区</option>
+          <option>其他区域</option>
+        </select>
+        <textarea id="message" placeholder="例如：需要停放1个月，车辆长期不开，希望价格低一些。"></textarea>
+        <button type="submit">生成咨询信息</button>
+        <p id="result" class="result"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 有派车友汇 · 广州月保车位信息服务</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
