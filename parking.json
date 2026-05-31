@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "天河棠下长期停车场",
+    "area": "天河区",
+    "type": "室内/露天停车场",
+    "monthlyPrice": 399,
+    "availableSpaces": 12,
+    "suitableFor": "长期停放、闲置车辆、出差停车",
+    "description": "适合车辆长期停放，位置稳定，月保价格友好。"
+  },
+  {
+    "id": 2,
+    "name": "白云机场周边停车场",
+    "area": "白云区",
+    "type": "露天停车场",
+    "monthlyPrice": 299,
+    "availableSpaces": 8,
+    "suitableFor": "出差停放、机场周边长期停车",
+    "description": "适合出差、旅游期间长期停车，咨询后确认具体接驳方式。"
+  },
+  {
+    "id": 3,
+    "name": "番禺大型合作停车场",
+    "area": "番禺区",
+    "type": "大型停车场",
+    "monthlyPrice": 350,
+    "availableSpaces": 20,
+    "suitableFor": "长期停放、多车停放",
+    "description": "车位较充足，适合企业车辆或长期不用车车主。"
+  }
+]
